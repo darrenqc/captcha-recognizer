@@ -1,0 +1,16 @@
+# ignore logs
+*.log
+log
+
+# ignore emacs temporary editting files
+*~
+
+# ignore results
+*.csv
+result
+
+# ignore node modules
+node_modules
+
+# ignore test files
+test

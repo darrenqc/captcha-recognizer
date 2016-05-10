@@ -1,0 +1,32 @@
+{
+  "name": "captcha-recognizer",
+  "version": "1.0.0",
+  "description": "extracts contents out of a png, jpg or tiff, based on tesseract, an open source c++ ocr engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrenqc/captcha-recognizer.git"
+  },
+  "keywords": [
+    "ocr",
+    "captcha"
+  ],
+  "author": "darren <darrenqc823@gmail.com> (https://github.com/darrenqc)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrenqc/captcha-recognizer/issues"
+  },
+  "homepage": "https://github.com/darrenqc/captcha-recognizer#readme",
+  "dependencies":{
+    "node-tesseract":"^0.2.7",
+    "gm":"^1.22.0",
+    "node-uuid": "^1.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.0",
+    "should": "~2.1.1"
+  }
+}
